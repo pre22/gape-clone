@@ -7,9 +7,34 @@
     <title>Coingape: Bitcoin, Ethereum, Crypto News and Price Analysis</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        
+    /* ul {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+    } */
+    .newstabs, .tabs {
+        border: 1px solid #b9b9b9;
+        border-radius: 5px;
+        color: #222;
+        overflow: hidden;
+    }
+    .col-hometab {
+        font-family: Montserrat;
+    }
+    
+
+    </style>
 </head>
 
-<body style=" font-family: 'Montserrat', sans-serif;">
+<body style="font-family: 'Montserrat', sans-serif;">
     <div class="container ">
         <!-- first card -->
         <div class="row">
@@ -419,11 +444,14 @@
                 </div>
             </div>
 
-            <div class="col-2 h-25">
-                <img src="/static/img/teleads.jpeg" alt="Leads">
+            <div class="col-2 h-25 p-2" style="background-color: #f4f4f4;">
+                <div>
+                    <img class="img-fluid" src="/static/img/teleads.jpeg" alt="Leads">
+                </div>
             </div>
         </div>
 
+        <!-- Tab  -->
         <div class="row mt-5">
             <div class="col-8">
                 <ui class="nav nav-tabs">
@@ -454,7 +482,7 @@
                         <div class="row mt-2">
 
                             <div class="col-4">
-                                <img class="rounded" src="/static/img/solana1.jpg" width="200px" height="150px">
+                                <img class="rounded img-fluid" src="/static/img/solana1.jpg"  height="150px">
                             </div>
                             <div class="col-8">
                                 <div class="row">
@@ -467,7 +495,7 @@
 
                         <div class="row mt-2">
                             <div class="col-4">
-                                <img class="rounded" src="/static/img/solana1.jpg" width="200px" height="150px">
+                                <img class="rounded img-fluid" src="/static/img/solana1.jpg" height="150px">
                             </div>
                             <div class="col-8">
                                 <div class="row">
@@ -480,7 +508,7 @@
 
                         <div class="row mt-2">
                             <div class="col-4">
-                                <img class="rounded" src="/static/img/solana1.jpg" width="200px" height="150px">
+                                <img class="rounded img-fluid" src="/static/img/solana1.jpg" height="150px">
                             </div>
                             <div class="col-8">
                                 <div class="row">
@@ -493,7 +521,7 @@
 
                         <div class="row mt-2">
                             <div class="col-4">
-                                <img class="rounded" src="/static/img/solana1.jpg" width="200px" height="150px">
+                                <img class="rounded img-fluid" src="/static/img/solana1.jpg" height="150px">
                             </div>
                             <div class="col-8">
                                 <div class="row">
@@ -506,7 +534,7 @@
 
                         <div class="row mt-2">
                             <div class="col-4">
-                                <img class="rounded" src="/static/img/solana1.jpg" width="200px" height="150px">
+                                <img class="rounded img-fluid" src="/static/img/solana1.jpg" height="150px">
                             </div>
                             <div class="col-8">
                                 <div class="row">
@@ -519,7 +547,7 @@
 
                         <div class="row mt-2">
                             <div class="col-4">
-                                <img class="rounded" src="/static/img/solana1.jpg" width="200px" height="150px">
+                                <img class="rounded img-fluid" src="/static/img/solana1.jpg" height="150px">
                             </div>
                             <div class="col-8">
                                 <div class="row">
@@ -532,7 +560,7 @@
 
                         <div class="row mt-2">
                             <div class="col-4">
-                                <img class="rounded" src="/static/img/solana1.jpg" width="200px" height="150px">
+                                <img class="rounded img-fluid" src="/static/img/solana1.jpg" height="150px">
                             </div>
                             <div class="col-8">
                                 <div class="row">
@@ -545,7 +573,7 @@
 
                         <div class="row mt-2">
                             <div class="col-4">
-                                <img class="rounded" src="/static/img/solana1.jpg" width="200px" height="150px">
+                                <img class="rounded img-fluid" src="/static/img/solana1.jpg" height="150px">
                             </div>
                             <div class="col-8">
                                 <div class="row">
@@ -566,16 +594,16 @@
                 </div>
             </div>
 
-            <div class="col-4 h-25 p-2" style="background-color: lightgrey;">
+            <div class="col-4 h-25 p-2" style="background-color: #f4f4f4;">
                 <div class="p-4" style="border: 1px solid #1074b7; background-color: #dbf4ff;">
-                    <h5>Subscribe to</h5>
-                    <h4>DAILY NEWSLETTER</h4>
+                    <h5 class="fw-bold">Subscribe to</h5>
+                    <h4 class="fw-bold">DAILY NEWSLETTER</h4>
                     <p>Your daily dose of Crypto news, Prices & other updates..</p>
                     <form action="">
                         <div class="mb-3">
                             <input type="email" class="form-control" placeholder="Enter your email ID">
                         </div>
-                        <button type="submit" class="btn btn-primary">SUBSCRIBE</button>
+                        <button type="submit" class="btn btn-primary fw-bold">SUBSCRIBE</button>
                     </form>
                 </div>
             </div>
