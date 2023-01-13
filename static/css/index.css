@@ -1,0 +1,55 @@
+.newstitle h6 {
+    font-size: 13px;
+    font-weight: 600;
+    display: block;
+    line-height: 20px;
+    color: #222;
+
+}
+
+.newstitle p {
+    color: #1074b7;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.nav-tabs {
+    background-color: #f4f4f4;
+}
+
+.nav-tabs li button {
+    color: #222;
+}
+
+.nav-tabs li button.active {
+    font-weight: 600;
+}
+
+.hastitle {
+    color: #1074b7;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#navbarNavDropdown ul li a {
+    font-size: 14px;
+    font-weight: 500;
+    align-items: center;
+    padding: 12px;
+    color: #222;
+}
+
+nav{
+    background-color: #dbf4ff !important;
+}
+
+.newstabs, .tabs {
+    border: 1px solid #b9b9b9;
+    border-radius: 5px;
+    color: #222;
+    overflow: hidden;
+}
+.col-hometab {
+    font-family: Montserrat;
+}
