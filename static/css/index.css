@@ -58,6 +58,19 @@ nav{
     text-decoration: underline;
 }
 
+footer a {
+    text-decoration: none;
+}
+
+/* Custom CSS Classes */
+.fw-500 {
+    font-weight: 500;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
 .newstabs, .tabs {
     border: 1px solid #b9b9b9;
     border-radius: 5px;
