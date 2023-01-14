@@ -71,6 +71,15 @@ footer a {
     font-size: 13px;
 }
 
+.fs-12 {
+    font-size: 12px;
+}
+
+
+.w-8em {
+    width: 8em;
+}
+
 .newstabs, .tabs {
     border: 1px solid #b9b9b9;
     border-radius: 5px;
