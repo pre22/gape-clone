@@ -44,6 +44,20 @@ nav{
     background-color: #dbf4ff !important;
 }
 
+.cr-list {
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.cr-list a {
+    color: #262228;
+}
+
+.cr-list a:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
 .newstabs, .tabs {
     border: 1px solid #b9b9b9;
     border-radius: 5px;
@@ -53,3 +67,14 @@ nav{
 .col-hometab {
     font-family: Montserrat;
 }
+
+.carousel-inner {
+    display: flex;
+}
+
+#carousel-item {
+    display: block;
+    margin: 0;
+    flex: 0 0 calc(100%/2);
+}
+
