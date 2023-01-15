@@ -75,9 +75,30 @@ footer a {
     font-size: 12px;
 }
 
+.maintitle {
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+    border-bottom: 1px solid #5d5d5d;
+    justify-content: space-around;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.maintitle span {
+    margin: 0 0 -18px;
+    padding: 5px 10px;
+    background-color: #fff;
+}
 
 .w-8em {
     width: 8em;
+}
+
+.full {
+    width: 100vw;
+    height: 100vh;
 }
 
 .newstabs, .tabs {
