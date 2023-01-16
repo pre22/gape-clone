@@ -49,8 +49,6 @@ nav ul a:hover {
     background-color: #fff;
 }
 
-
-
 .dropdown-menu{
     display: none;
     min-width: 224px;
@@ -153,6 +151,16 @@ footer a {
     width: 8em;
 }
 
+.custom-carousel {
+    display: flex;
+}
+
+.custom-carousel .carousel-item {
+    /* width: 50%; */
+    display: block;
+    margin-right: 0;
+    flex: 0 0 calc(100%/2);
+}
 
 .newstabs, .tabs {
     border: 1px solid #b9b9b9;
@@ -164,13 +172,4 @@ footer a {
     font-family: Montserrat;
 }
 
-.carousel-inner {
-    display: flex;
-}
-
-#carousel-item {
-    display: block;
-    margin: 0;
-    flex: 0 0 calc(100%/2);
-}
 
