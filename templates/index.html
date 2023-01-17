@@ -124,9 +124,9 @@
         </div>
 
         <!-- News Section  -->
-        <div class="row">
+        <div class="row align-items-stretch d-flex">
             <!-- 1st Column with multiple tabs  -->
-            <div class="col-4 p-0 m-0 border border-light-subtle h-25">
+            <div class="col-4 p-0 m-0 border border-light-subtle rounded h-100">
                 <ui class="nav nav-tabs">
                     <li class="nav-item">
                         <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#all-section" type="button"
@@ -150,8 +150,8 @@
                     </li>
                 </ui>
 
-                <div class="tab-content mx-2 h-">
-                    <div id="all-section" class="tab-pane fade show active overflow-y-auto">
+                <div class="tab-content mx-2 overflow-y-auto overflow-x-hidden">
+                    <div id="all-section" class="tab-pane fade show active">
                         <div class="row justify-content-between mt-2">
                             <div class="col-2">
                                 <img class="rounded" src="/static/img/solana1.jpg" width="80px" height="65px">
@@ -164,6 +164,42 @@
                             </div>
                         </div>
 
+                        <div class="row justify-content-between">
+                            <div class="col-2">
+                                <img class="rounded" src="/static/img/solana1.jpg" width="80px" height="65px">
+                            </div>
+                            <div class="col-9">
+                                <div class="row newstitle">
+                                    <h6>Bitcoin (BTC) Gains for the Ninth Successive Day, Is $20,000 Coming?</h6>
+                                    <p>20 Mins ago | Bitcoin News</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-between">
+                            <div class="col-2">
+                                <img class="rounded" src="/static/img/solana1.jpg" width="80px" height="65px">
+                            </div>
+                            <div class="col-9">
+                                <div class="row newstitle">
+                                    <h6>Bitcoin (BTC) Gains for the Ninth Successive Day, Is $20,000 Coming?</h6>
+                                    <p>20 Mins ago | Bitcoin News</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-between">
+                            <div class="col-2">
+                                <img class="rounded" src="/static/img/solana1.jpg" width="80px" height="65px">
+                            </div>
+                            <div class="col-9">
+                                <div class="row newstitle">
+                                    <h6>Bitcoin (BTC) Gains for the Ninth Successive Day, Is $20,000 Coming?</h6>
+                                    <p>20 Mins ago | Bitcoin News</p>
+                                </div>
+                            </div>
+                        </div>
+                        
                         <div class="row justify-content-between">
                             <div class="col-2">
                                 <img class="rounded" src="/static/img/solana1.jpg" width="80px" height="65px">
@@ -315,20 +351,12 @@
                             <h5 class="hastitle">#CRYPTOVOICE</h5>
                         </div>
                         <div class="row">
-                            <!-- <div id="twitterComment" class="carousel slide" data-bs-ride="carousel"> -->
                             <div id="twitterComment">
-                                <!-- <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#twitterComment" data-bs-slide-to="0"
-                                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                                    <button type="button" data-bs-target="#twitterComment" data-bs-slide-to="1"
-                                        aria-label="Slide 2"></button>
-                                    <button type="button" data-bs-target="#twitterComment" data-bs-slide-to="2"
-                                        aria-label="Slide 3"></button>
-                                </div> -->
+                                
 
                                 <div class="carousel" data-flickity='{ "autoPlay": true }'>
 
-                                    <div class="carousel-cell card" id="carousel-item" style="background-color: #ffde9f;">
+                                    <div class="carousel-cell-1 card" style="background-color: #ffde9f;">
                                         <div class="card-body">
                                             <div class="d-flex gap-2">
                                                 <div>
@@ -351,7 +379,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="carousel-cell card" id="carousel-item" style="background-color: #bce1fe;">
+                                    <div class="carousel-cell-1 card" style="background-color: #bce1fe;">
                                         <div class="card-body">
                                             <div class="d-flex gap-2">
                                                 <div>
@@ -374,7 +402,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="carousel-cell card" id="carousel-item" style="background-color: #ffde9f;">
+                                    <div class="carousel-cell-1 card" style="background-color: #ffde9f;">
                                         <div class="card-body">
                                             <div class="d-flex gap-2">
                                                 <div>
@@ -397,7 +425,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="carousel-cell card" id="carousel-item" style="background-color: #bce1fe;">
+                                    <div class="carousel-cell-1 card" style="background-color: #bce1fe;">
                                         <div class="card-body">
                                             <div class="d-flex gap-2">
                                                 <div>
@@ -421,16 +449,6 @@
                                     </div>
                                 </div>
 
-                                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#twitterComment"
-                                    data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#twitterComment"
-                                    data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button> -->
                             </div>
                         </div>
                     </div>
@@ -446,184 +464,248 @@
 
         <!-- Tab  -->
         <div class="row mt-5">
-            <div class="col-8">
-                <ui class="nav nav-tabs">
-                    <li class="nav-item">
-                        <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#all-section" type="button"
-                            role="tab">All</button>
-                    </li>
-                    <li class="nav-item">
-                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#bitcoin" type="button"
-                            role="tab">Bitcoin</button>
-                    </li>
-                    <li class="nav-item">
-                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#altcoin" type="button"
-                            role="tab">Altcoin</button>
-                    </li>
-                    <li class="nav-item">
-                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#defi" type="button"
-                            role="tab">DeFi</button>
-                    </li>
-                    <li class="nav-item">
-                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#nft" type="button"
-                            role="tab">NFT</button>
-                    </li>
-                </ui>
 
-                <div class="tab-content">
-                    <div id="all-section" class="tab-pane fade show active">
-                        <div class="row mt-5">
-
-                            <div class="col-4">
-                                <img class="rounded img-fluid" src="/static/img/solana1.jpg"  height="150px">
-                            </div>
-                            <div class="col-8">
-                                <div class="row">
-                                    <p class="fw-bold" style="font-size: 16px;">Bitcoin (BTC) Gains for the Ninth Successive Day, Is $20,000 Coming?</p>
-                                    <p>The concept of digital currency has surfaced for a long time now, but when Bitcoin was first introduced in the year 2008, it took the world by storm. Bitcoins’s extreme immutability bought in by blockchain.</p>
-                                    <p class="fw-semibold" style="font-size: 12px; color: #1074b7;">20 Mins ago</p>
-                                </div>
-                                <div class="row"></div>
-                            </div>
-                        </div>
-
-                        <div class="row mt-2">
-                            <div class="col-4">
-                                <img class="rounded img-fluid" src="/static/img/solana1.jpg" height="150px">
-                            </div>
-                            <div class="col-8">
-                                <div class="row">
-                                    <p class="fw-bold" style="font-size: 16px;">Bitcoin (BTC) Gains for the Ninth Successive Day, Is $20,000 Coming?</p>
-                                    <p>The concept of digital currency has surfaced for a long time now, but when Bitcoin was first introduced in the year 2008, it took the world by storm. Bitcoins’s extreme immutability bought in by blockchain.</p>
-                                    <p class="fw-semibold" style="font-size: 12px; color: #1074b7;">20 Mins ago</p>
-                                </div>
-                                <div class="row"></div>
-                            </div>
-                        </div>
-
-                        <div class="row mt-2">
-                            <div class="col-4">
-                                <img class="rounded img-fluid" src="/static/img/solana1.jpg" height="150px">
-                            </div>
-                            <div class="col-8">
-                                <div class="row">
-                                    <p class="fw-bold" style="font-size: 16px;">Bitcoin (BTC) Gains for the Ninth Successive Day, Is $20,000 Coming?</p>
-                                    <p>The concept of digital currency has surfaced for a long time now, but when Bitcoin was first introduced in the year 2008, it took the world by storm. Bitcoins’s extreme immutability bought in by blockchain.</p>
-                                    <p class="fw-semibold" style="font-size: 12px; color: #1074b7;">20 Mins ago</p>
-                                </div>
-                                <div class="row"></div>
-                            </div>
-                        </div>
-
-                        <div class="row mt-2">
-                            <div class="col-4">
-                                <img class="rounded img-fluid" src="/static/img/solana1.jpg" height="150px">
-                            </div>
-                            <div class="col-8">
-                                <div class="row">
-                                    <p class="fw-bold" style="font-size: 16px;">Bitcoin (BTC) Gains for the Ninth Successive Day, Is $20,000 Coming?</p>
-                                    <p>The concept of digital currency has surfaced for a long time now, but when Bitcoin was first introduced in the year 2008, it took the world by storm. Bitcoins’s extreme immutability bought in by blockchain.</p>
-                                    <p class="fw-semibold" style="font-size: 12px; color: #1074b7;">20 Mins ago</p>
-                                </div>
-                                <div class="row"></div>
-                            </div>
-                        </div>
-
-                        <div class="row mt-2">
-                            <div class="col-4">
-                                <img class="rounded img-fluid" src="/static/img/solana1.jpg" height="150px">
-                            </div>
-                            <div class="col-8">
-                                <div class="row">
-                                    <p class="fw-bold" style="font-size: 16px;">Bitcoin (BTC) Gains for the Ninth Successive Day, Is $20,000 Coming?</p>
-                                    <p>The concept of digital currency has surfaced for a long time now, but when Bitcoin was first introduced in the year 2008, it took the world by storm. Bitcoins’s extreme immutability bought in by blockchain.</p>
-                                    <p class="fw-semibold" style="font-size: 12px; color: #1074b7;">20 Mins ago</p>
-                                </div>
-                                <div class="row"></div>
-                            </div>
-                        </div>
-
-                        <div class="row mt-2">
-                            <div class="col-4">
-                                <img class="rounded img-fluid" src="/static/img/solana1.jpg" height="150px">
-                            </div>
-                            <div class="col-8">
-                                <div class="row">
-                                    <p class="fw-bold" style="font-size: 16px;">Bitcoin (BTC) Gains for the Ninth Successive Day, Is $20,000 Coming?</p>
-                                    <p>The concept of digital currency has surfaced for a long time now, but when Bitcoin was first introduced in the year 2008, it took the world by storm. Bitcoins’s extreme immutability bought in by blockchain.</p>
-                                    <p class="fw-semibold" style="font-size: 12px; color: #1074b7;">20 Mins ago</p>
-                                </div>
-                                <div class="row"></div>
-                            </div>
-                        </div>
-
-                        <div class="row mt-2">
-                            <div class="col-4">
-                                <img class="rounded img-fluid" src="/static/img/solana1.jpg" height="150px">
-                            </div>
-                            <div class="col-8">
-                                <div class="row">
-                                    <p class="fw-bold" style="font-size: 16px;">Bitcoin (BTC) Gains for the Ninth Successive Day, Is $20,000 Coming?</p>
-                                    <p>The concept of digital currency has surfaced for a long time now, but when Bitcoin was first introduced in the year 2008, it took the world by storm. Bitcoins’s extreme immutability bought in by blockchain.</p>
-                                    <p class="fw-semibold" style="font-size: 12px; color: #1074b7;">20 Mins ago</p>
-                                </div>
-                                <div class="row"></div>
-                            </div>
-                        </div>
-
-                        <div class="row mt-2">
-                            <div class="col-4">
-                                <img class="rounded img-fluid" src="/static/img/solana1.jpg" height="150px">
-                            </div>
-                            <div class="col-8">
-                                <div class="row">
-                                    <p class="fw-bold" style="font-size: 16px;">Bitcoin (BTC) Gains for the Ninth Successive Day, Is $20,000 Coming?</p>
-                                    <p>The concept of digital currency has surfaced for a long time now, but when Bitcoin was first introduced in the year 2008, it took the world by storm. Bitcoins’s extreme immutability bought in by blockchain.</p>
-                                    <p class="fw-semibold" style="font-size: 12px; color: #1074b7;">20 Mins ago</p>
-                                </div>
-                                <div class="row"></div>
-                            </div>
-                        </div>
+            <div class="row">
+                <div class="col-8">
+                    <div class="maintitle2 d-block mb-4">
+                        <h5>PRICE ANALYSIS</h5>
                     </div>
-                    <div id="bitcoin" class="tab-pane fade">
-                        <h3>Menu 2</h3>
-                        <p>Some content in menu 2.</p>
+
+                    <ui class="nav nav-tabs" id="price-analysis">
+                        <li class="nav-item">
+                            <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#all-section" type="button"
+                                role="tab">All</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#bitcoin" type="button"
+                                role="tab">Bitcoin</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#altcoin" type="button"
+                                role="tab">Altcoin</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#defi" type="button"
+                                role="tab">DeFi</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#nft" type="button"
+                                role="tab">NFT</button>
+                        </li>
+                    </ui>
+
+                    <div class="tab-content">
+                        <div id="all-section" class="tab-pane fade show active">
+                            <div class="row mt-5">
+
+                                <div class="col-4">
+                                    <img class="rounded img-fluid" src="/static/img/solana1.jpg"  height="150px">
+                                </div>
+                                <div class="col-8">
+                                    <div class="row">
+                                        <p class="fw-bold" style="font-size: 16px;">Bitcoin (BTC) Gains for the Ninth Successive Day, Is $20,000 Coming?</p>
+                                        <p>The concept of digital currency has surfaced for a long time now, but when Bitcoin was first introduced in the year 2008, it took the world by storm. Bitcoins’s extreme immutability bought in by blockchain.</p>
+                                        <p class="fw-semibold" style="font-size: 12px; color: #1074b7;">20 Mins ago</p>
+                                    </div>
+                                    <div class="row"></div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-2">
+                                <div class="col-4">
+                                    <img class="rounded img-fluid" src="/static/img/solana1.jpg" height="150px">
+                                </div>
+                                <div class="col-8">
+                                    <div class="row">
+                                        <p class="fw-bold" style="font-size: 16px;">Bitcoin (BTC) Gains for the Ninth Successive Day, Is $20,000 Coming?</p>
+                                        <p>The concept of digital currency has surfaced for a long time now, but when Bitcoin was first introduced in the year 2008, it took the world by storm. Bitcoins’s extreme immutability bought in by blockchain.</p>
+                                        <p class="fw-semibold" style="font-size: 12px; color: #1074b7;">20 Mins ago</p>
+                                    </div>
+                                    <div class="row"></div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-2">
+                                <div class="col-4">
+                                    <img class="rounded img-fluid" src="/static/img/solana1.jpg" height="150px">
+                                </div>
+                                <div class="col-8">
+                                    <div class="row">
+                                        <p class="fw-bold" style="font-size: 16px;">Bitcoin (BTC) Gains for the Ninth Successive Day, Is $20,000 Coming?</p>
+                                        <p>The concept of digital currency has surfaced for a long time now, but when Bitcoin was first introduced in the year 2008, it took the world by storm. Bitcoins’s extreme immutability bought in by blockchain.</p>
+                                        <p class="fw-semibold" style="font-size: 12px; color: #1074b7;">20 Mins ago</p>
+                                    </div>
+                                    <div class="row"></div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-2">
+                                <div class="col-4">
+                                    <img class="rounded img-fluid" src="/static/img/solana1.jpg" height="150px">
+                                </div>
+                                <div class="col-8">
+                                    <div class="row">
+                                        <p class="fw-bold" style="font-size: 16px;">Bitcoin (BTC) Gains for the Ninth Successive Day, Is $20,000 Coming?</p>
+                                        <p>The concept of digital currency has surfaced for a long time now, but when Bitcoin was first introduced in the year 2008, it took the world by storm. Bitcoins’s extreme immutability bought in by blockchain.</p>
+                                        <p class="fw-semibold" style="font-size: 12px; color: #1074b7;">20 Mins ago</p>
+                                    </div>
+                                    <div class="row"></div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-2">
+                                <div class="col-4">
+                                    <img class="rounded img-fluid" src="/static/img/solana1.jpg" height="150px">
+                                </div>
+                                <div class="col-8">
+                                    <div class="row">
+                                        <p class="fw-bold" style="font-size: 16px;">Bitcoin (BTC) Gains for the Ninth Successive Day, Is $20,000 Coming?</p>
+                                        <p>The concept of digital currency has surfaced for a long time now, but when Bitcoin was first introduced in the year 2008, it took the world by storm. Bitcoins’s extreme immutability bought in by blockchain.</p>
+                                        <p class="fw-semibold" style="font-size: 12px; color: #1074b7;">20 Mins ago</p>
+                                    </div>
+                                    <div class="row"></div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-2">
+                                <div class="col-4">
+                                    <img class="rounded img-fluid" src="/static/img/solana1.jpg" height="150px">
+                                </div>
+                                <div class="col-8">
+                                    <div class="row">
+                                        <p class="fw-bold" style="font-size: 16px;">Bitcoin (BTC) Gains for the Ninth Successive Day, Is $20,000 Coming?</p>
+                                        <p>The concept of digital currency has surfaced for a long time now, but when Bitcoin was first introduced in the year 2008, it took the world by storm. Bitcoins’s extreme immutability bought in by blockchain.</p>
+                                        <p class="fw-semibold" style="font-size: 12px; color: #1074b7;">20 Mins ago</p>
+                                    </div>
+                                    <div class="row"></div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-2">
+                                <div class="col-4">
+                                    <img class="rounded img-fluid" src="/static/img/solana1.jpg" height="150px">
+                                </div>
+                                <div class="col-8">
+                                    <div class="row">
+                                        <p class="fw-bold" style="font-size: 16px;">Bitcoin (BTC) Gains for the Ninth Successive Day, Is $20,000 Coming?</p>
+                                        <p>The concept of digital currency has surfaced for a long time now, but when Bitcoin was first introduced in the year 2008, it took the world by storm. Bitcoins’s extreme immutability bought in by blockchain.</p>
+                                        <p class="fw-semibold" style="font-size: 12px; color: #1074b7;">20 Mins ago</p>
+                                    </div>
+                                    <div class="row"></div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-2">
+                                <div class="col-4">
+                                    <img class="rounded img-fluid" src="/static/img/solana1.jpg" height="150px">
+                                </div>
+                                <div class="col-8">
+                                    <div class="row">
+                                        <p class="fw-bold" style="font-size: 16px;">Bitcoin (BTC) Gains for the Ninth Successive Day, Is $20,000 Coming?</p>
+                                        <p>The concept of digital currency has surfaced for a long time now, but when Bitcoin was first introduced in the year 2008, it took the world by storm. Bitcoins’s extreme immutability bought in by blockchain.</p>
+                                        <p class="fw-semibold" style="font-size: 12px; color: #1074b7;">20 Mins ago</p>
+                                    </div>
+                                    <div class="row"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="bitcoin" class="tab-pane fade">
+                            <h3>Menu 2</h3>
+                            <p>Some content in menu 2.</p>
+                        </div>
+                        <div id="altcoin" class="tab-pane fade"></div>
+                        <div id="defi" class="tab-pane fade"></div>
+                        <div id="nft" class="tab-pane fade"></div>
                     </div>
-                    <div id="altcoin" class="tab-pane fade"></div>
-                    <div id="defi" class="tab-pane fade"></div>
-                    <div id="nft" class="tab-pane fade"></div>
                 </div>
-            </div>
 
-            <div class="col-4 h-25 p-2" style="background-color: #f4f4f4;">
-                <div class="p-4" style="border: 1px solid #1074b7; background-color: #dbf4ff;">
-                    <h5 class="fw-bold">Subscribe to</h5>
-                    <h4 class="fw-bold">DAILY NEWSLETTER</h4>
-                    <p>Your daily dose of Crypto news, Prices & other updates..</p>
-                    <form action="">
-                        <div class="mb-3">
-                            <input type="email" class="form-control" placeholder="Enter your email ID">
-                        </div>
-                        <button type="submit" class="btn btn-primary fw-bold">SUBSCRIBE</button>
-                    </form>
+                <div class="col-4 h-25 p-2" style="background-color: #f4f4f4;">
+                    <div class="p-4" style="border: 1px solid #1074b7; background-color: #dbf4ff;">
+                        <h5 class="fw-bold">Subscribe to</h5>
+                        <h4 class="fw-bold">DAILY NEWSLETTER</h4>
+                        <p>Your daily dose of Crypto news, Prices & other updates..</p>
+                        <form action="">
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Enter your email ID">
+                            </div>
+                            <button type="submit" class="btn btn-primary fw-bold">SUBSCRIBE</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
 
 
         <!-- Crypto Stories  -->
-        <div class="row">
-            <div class="col">
-                <hr class="hr" />
+        <div class="row my-5">
+            <div class="col-12 d-flex justify-content-between maintitle2 mb-5" style="border-left: 10px solid #20c997;">
+                <h5>Crypto Stories</h5>
+                <a href="#" class="viewAll">View all</a>
+            </div>
+
+            <div class="col-12">
+                <div class="carousel d-block carousel-story" data-flickity='{ "autoPlay": true }'>
+                    <div class="carousel-cell-2 card border-0">
+                        <div class="card-body p-0">
+                            <img class="img-fluid rounded" width="640" height="853" src="/static/img/Copy-of-Poster-Image.jpg" alt="">
+                            <p class="card-text">Elon Musk gives an Insight into Twitter Algorithm</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-cell-2 card border-0">
+                        <div class="card-body p-0">
+                            <img class="img-fluid rounded" width="640" height="853" src="/static/img/20220506_142123_0000.jpg" alt="">
+                            <p class="card-text">Elon Musk gives an Insight into Twitter Algorithm</p>
+                        </div>
+                    </div>
+                    <div class="carousel-cell-2 card border-0">
+                        <div class="card-body p-0">
+                            <img class="img-fluid rounded" width="640" height="853" src="/static/img/Poster-Image-2023-01-16T181833.972.jpg" alt="">
+                            <p class="card-text">Elon Musk gives an Insight into Twitter Algorithm</p>
+                        </div>
+                    </div>
+                    <div class="carousel-cell-2 card border-0">
+                        <div class="card-body p-0">
+                            <img class="img-fluid rounded" width="640" height="853" src="/static/img/Poster-Image-2023-01-17T131647.061.jpg" alt="">
+                            <p class="card-text">Elon Musk gives an Insight into Twitter Algorithm</p>
+                        </div>
+                    </div>
+                    <div class="carousel-cell-2 card border-0">
+                        <div class="card-body p-0">
+                            <img class="img-fluid rounded" width="640" height="853" src="/static/img/Untitled-design26.jpg" alt="">
+                            <p class="card-text">Elon Musk gives an Insight into Twitter Algorithm</p>
+                        </div>
+                    </div>
+                    <div class="carousel-cell-2 card border-0">
+                        <div class="card-body p-0">
+                            <img class="img-fluid rounded" width="640" height="853" src="/static/img/Copy-of-Poster-Image-54.jpg" alt="">
+                            <p class="card-text">Elon Musk gives an Insight into Twitter Algorithm</p>
+                        </div>
+                    </div>
+                    <div class="carousel-cell-2 card border-0">
+                        <div class="card-body p-0">
+                            <img class="img-fluid rounded" width="640" height="853" src="/static/img/Copy-of-Poster-Image-20.jpg" alt="">
+                            <p class="card-text">Elon Musk gives an Insight into Twitter Algorithm</p>
+                        </div>
+                    </div>
+                    <div class="carousel-cell-2 card border-0">
+                        <div class="card-body p-0">
+                            <img class="img-fluid rounded" width="640" height="853" src="/static/img/Copy-of-Poster-Image-16.jpg" alt="">
+                            <p class="card-text">Elon Musk gives an Insight into Twitter Algorithm</p>
+                        </div>
+                    </div>
+
+                    
+                </div>
             </div>
         </div>
 
         <!-- Project Review  -->
         <div class="row">
             <div class="row mb-4">
-                <div class="maintitle2">
-                    <span>Project Review</span>
-                    <a class="viewAll" href="#">View All</a>                  
+                <div class="maintitle2 d-flex justify-content-between">
+                    <h5>Crypto Stories</h5>
+                    <p class="viewAll">View all</p>
                 </div>
             </div>
 
