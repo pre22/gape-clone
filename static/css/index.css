@@ -151,15 +151,20 @@ footer a {
     width: 8em;
 }
 
-.custom-carousel {
-    display: flex;
-}
-
-.custom-carousel .carousel-item {
-    /* width: 50%; */
+.carousel-cell {
+    width: 50%;
+    margin-right: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+/* cell number */
+.carousel-cell:before {
     display: block;
-    margin-right: 0;
-    flex: 0 0 calc(100%/2);
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
 }
 
 .newstabs, .tabs {
