@@ -116,42 +116,33 @@ footer a {
 }
 
 .maintitle2 {
-    display: flex;
-    font-size: 16px;
     font-weight: 600;
-    margin: 0 0 40px;
     color: #222;
-    border-bottom: 1px solid #5d5d5d;
-    justify-content: flex-start;
-    position: relative;
     text-transform: uppercase;
-    align-items: stretch;
+    border-left: 8px solid #1074b7;
+    padding-left: 5px;
 }
 
-.maintitle2 span {
-    margin: 0 0 -18px;
-    padding: 5px 10px;
-    background-color: #fff;
-
-    /* border-left: 9px solid #007bff; */
+.maintitle2 h5 {
+    font-size: 16px;
+    margin: 0;
+    font-weight: 600;
 }
 
 .viewAll {
     color: #ff3636;
-    position: absolute;
     font-size: 12px;
     padding: 2px 10px;
-    right: 11px;
-    top: 5px;
-    background: #fff;
+    margin-bottom: 0;
     text-decoration: none;
+    
 }
 
 .w-8em {
     width: 8em;
 }
 
-.carousel-cell {
+.carousel-cell-1 {
     width: 50%;
     margin-right: 10px;
     border-radius: 5px;
@@ -159,12 +150,63 @@ footer a {
   }
   
 /* cell number */
-.carousel-cell:before {
+.carousel-cell-1:before {
     display: block;
     text-align: center;
     line-height: 200px;
     font-size: 80px;
     color: white;
+}
+
+.carousel-cell-2 {
+    width: 190px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.carousel-cell-2 img {
+    height: 200px;
+}
+
+.carousel-cell-2 p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* cell number */
+.carousel-cell-2:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+}
+
+#price-analysis {
+    background-color: #fff;
+    color: #222;
+    border-bottom: 1px solid #222;
+}
+
+#price-analysis .nav-item {
+    color: #222;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#price-analysis .nav-item button {
+    text-transform: uppercase;
+}
+
+#price-analysis .nav-item .nav-link.active {
+    border: 0px;
+    border-bottom: 5px solid #1074b7;
+}
+
+#price-analysis .nav-item .nav-link:hover {
+    text-decoration: none;
+    border: 0px;
+    color: #222;
 }
 
 .newstabs, .tabs {
@@ -173,6 +215,7 @@ footer a {
     color: #222;
     overflow: hidden;
 }
+
 .col-hometab {
     font-family: Montserrat;
 }
