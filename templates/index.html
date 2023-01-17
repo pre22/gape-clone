@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="/static/css/index.css">
+
+    <!-- Flick -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 </head>
 
 <body style="font-family: 'Montserrat', sans-serif;">
@@ -312,19 +315,20 @@
                             <h5 class="hastitle">#CRYPTOVOICE</h5>
                         </div>
                         <div class="row">
-                            <div id="twitterComment" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-indicators">
+                            <!-- <div id="twitterComment" class="carousel slide" data-bs-ride="carousel"> -->
+                            <div id="twitterComment">
+                                <!-- <div class="carousel-indicators">
                                     <button type="button" data-bs-target="#twitterComment" data-bs-slide-to="0"
                                         class="active" aria-current="true" aria-label="Slide 1"></button>
                                     <button type="button" data-bs-target="#twitterComment" data-bs-slide-to="1"
                                         aria-label="Slide 2"></button>
                                     <button type="button" data-bs-target="#twitterComment" data-bs-slide-to="2"
                                         aria-label="Slide 3"></button>
-                                </div>
+                                </div> -->
 
-                                <div class="carousel-inner custom-carousel">
+                                <div class="carousel" data-flickity='{ "autoPlay": true }'>
 
-                                    <div class="carousel-item card" id="carousel-item" style="background-color: #ffde9f;">
+                                    <div class="carousel-cell card" id="carousel-item" style="background-color: #ffde9f;">
                                         <div class="card-body">
                                             <div class="d-flex gap-2">
                                                 <div>
@@ -347,7 +351,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="carousel-item card" id="carousel-item" style="background-color: #bce1fe;">
+                                    <div class="carousel-cell card" id="carousel-item" style="background-color: #bce1fe;">
                                         <div class="card-body">
                                             <div class="d-flex gap-2">
                                                 <div>
@@ -370,7 +374,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="carousel-item card" id="carousel-item" style="background-color: #ffde9f;">
+                                    <div class="carousel-cell card" id="carousel-item" style="background-color: #ffde9f;">
                                         <div class="card-body">
                                             <div class="d-flex gap-2">
                                                 <div>
@@ -393,7 +397,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="carousel-item card" id="carousel-item" style="background-color: #bce1fe;">
+                                    <div class="carousel-cell card" id="carousel-item" style="background-color: #bce1fe;">
                                         <div class="card-body">
                                             <div class="d-flex gap-2">
                                                 <div>
@@ -417,7 +421,7 @@
                                     </div>
                                 </div>
 
-                                <button class="carousel-control-prev" type="button" data-bs-target="#twitterComment"
+                                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#twitterComment"
                                     data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Previous</span>
@@ -426,7 +430,7 @@
                                     data-bs-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Next</span>
-                                </button>
+                                </button> -->
                             </div>
                         </div>
                     </div>
@@ -1084,6 +1088,9 @@
         crossorigin="anonymous"></script>
 
     <script src="/static/js/index.js"></script>
+
+    <!-- Flickr JS  -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 
 </html>
