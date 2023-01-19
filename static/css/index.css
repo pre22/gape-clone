@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;;
+}
+
 .newstitle h6 {
     font-size: 13px;
     font-weight: 600;
@@ -230,3 +234,23 @@ footer a {
 
 
 
+
+@media only screen and (max-width: 768px) {
+    
+
+    .news-section .row:nth-child(1), .news-section .col-8 {
+        padding-right: 0px;
+    }
+
+    .news-section .col-md-7 p:nth-child(2) {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Georgia', sans-serif;
+    }
+
+    .description {
+        font-family: 'Georgia', sans-serif;
+    }
+
+    
+}
