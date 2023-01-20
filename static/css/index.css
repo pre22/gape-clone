@@ -267,6 +267,16 @@ footer a {
         background-color: #0065a0 !important;
     }
 
+    .navbar-toggler:focus {
+        /* box-shadow: 0 0 0 #fff; */
+        box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width) #fff;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 255%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+      }
+
+
     #navbarNavDropdown ul li a.nav-link {
         color: #fff !important;
     }
@@ -304,6 +314,10 @@ footer a {
 }
 
 @media only screen and (max-width: 425px) {
+    nav {
+        background-color: #0065a0 !important;
+    }
+
     nav .container-fluid {
         padding-top: 12px; 
         padding-bottom: 12px; 
@@ -329,4 +343,4 @@ footer a {
 
 }
 
-@media only screen and (max-width: )
+/* @media only screen and (max-width: ) */
