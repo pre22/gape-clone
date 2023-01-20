@@ -236,7 +236,31 @@ footer a {
     font-size: 16px;
 }
 
+.description {
+    font-family: 'Georgia', sans-serif;
+}
 
+.news-section .col-md-7 p:nth-child(2) {
+    /* font-size: 14px;
+    font-weight: 400; */
+    font-family: 'Georgia', sans-serif;
+}
+
+.a-one-item .accordion-item {
+    border: 0px;
+    
+}
+
+.a-one-item .accordion-button {
+    background-color: #fff;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.a-one-item .accordion-button:focus {
+    border: 0px;
+    box-shadow: none;
+}
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     nav .container-fluid {
@@ -253,11 +277,7 @@ footer a {
         font-weight: 400;
         font-family: 'Georgia', sans-serif;
     }
-
-    .description {
-        font-family: 'Georgia', sans-serif;
-    }
-
+    
     footer section ul {
         display: flex !important;
     }
