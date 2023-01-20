@@ -263,6 +263,18 @@ footer a {
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+    nav {
+        background-color: #0065a0 !important;
+    }
+
+    #navbarNavDropdown ul li a.nav-link {
+        color: #fff !important;
+    }
+
+    #navbarNavDropdown ul li a.nav-link:focus {
+        color: #222 !important;
+    }
+
     nav .container-fluid {
         padding-top: 12px; 
         padding-bottom: 12px; 
