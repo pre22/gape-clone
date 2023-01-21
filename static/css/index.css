@@ -297,7 +297,6 @@ footer a {
         padding-bottom: 12px; 
     }
 
-
     .news-section .row:nth-child(1), .news-section .col-8 {
         padding-right: 0px;
     }
@@ -318,6 +317,16 @@ footer a {
 
     .maintitle2 {
         font-size: 14px;
+    }
+
+    /* Peculiar to the Home Page  */
+    .news-tab .tab-content #all-section {
+        display: grid !important;
+        grid-template-columns: 50% 50%;
+    }
+
+    .news-tab {
+        width: auto;
     }
 }
 
@@ -375,6 +384,8 @@ footer a {
     .static-advert img {
         height: 100px;
     }
+
+    
 
 }
 
