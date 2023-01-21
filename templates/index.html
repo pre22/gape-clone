@@ -19,19 +19,19 @@
 <body>
     <div class="container">
         <!-- Static Advert -->
-        <div class="row h-auto mb-3">
+        <div class="row h-auto mb-3 static-advert">
             <!-- Top Desk Ads -->
-                <img src="/static/img/arrows.png" alt="Top Desk" class="w-100 px-0">   
+                <img src="/static/img/arrows.png" alt="Top Desk" class="w-100 lg-px-0">   
 
             <!-- Top Count Header  -->
         </div>
 
         <!-- Above the Nav  -->
-        <div class="row ">
+        <div class="row about-nav d-lg-flex flex-wrap d-none">
             <div class="col-4">
-                <img src="/static/img/logo.png" alt="logo" height="50vh">
+                <img class="" src="/static/img/logo.png" alt="logo" height="50vh">
                 <div class="ms-4 mt-0">
-                    <ul class="d-flex cr-list gap-2 fw-semibold">
+                    <ul class="d-flex flex-wrap cr-list gap-2 fw-semibold">
                         <li><a href="#">English</a></li> |
                         <li><a href="#">Espanol</a></li> |
                         <li><a href="#">Spanish</a></li>
@@ -39,12 +39,10 @@
                 </div>
             </div>
 
-            <div class="col-8 pe-0">
+            <div class="col-8 ">
                 <img class="w-100" src="/static/img/twitter_818x67.jpg" height="67" width="818" alt="">
             </div>
         </div>
-
-        <!-- <div class="container-sm"></div> -->
 
         <!-- Nav Section  -->
         <nav class="navbar navbar-expand-lg p-0 lh-lg">
@@ -136,15 +134,17 @@
         </nav>
 
         <!-- Hour update notifier -->
-        <div class="row my-4">
-            <h5 class=" border-danger border-5 border-start fw-semibold">24 HRS UPDATES</h5>
+        <div class="row my-4 d-none d-lg-block d-md-block">
+            <div class="col-6">
+                <h5 class="border-danger maintitle2 fw-semibold">Bitcoin News</h5>
+            </div>
         </div>
 
         <!-- News Section  -->
-        <div class="row">
+        <div class="row ">
             <!-- 1st Column with multiple tabs  -->
-            <div class="col-4 p-0 m-0 border border-light-subtle rounded">
-                <ul class="nav nav-tabs">
+            <div class="col-4 col-md-12 p-0 m-0 border border-light-subtle rounded news-tab">
+                <ul class="nav nav-tabs mb-2">
                     <li class="nav-item">
                         <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#all-section" type="button"
                             role="tab">All</button>
@@ -167,9 +167,9 @@
                     </li>
                 </ul>
 
-                <div class="tab-content mx-2 overflow-y-auto overflow-x-hidden">
+                <div class="tab-content mx-lg-2 overflow-y-auto overflow-x-hidden">
                     <div id="all-section" class="tab-pane fade show active" style="max-height:760px">
-                        <div class="row justify-content-between mt-2">
+                        <div class="row justify-content-between">
                             <div class="col-2">
                                 <img class="rounded" src="/static/img/solana1.jpg" width="80px" height="65px">
                             </div>
@@ -302,17 +302,19 @@
                             </div>
                         </div>
                     </div>
+
                     <div id="bitcoin" class="tab-pane fade">
                         <h3>Menu 2</h3>
                         <p>Some content in menu 2.</p>
                     </div>
+                    
                     <div id="altcoin" class="tab-pane fade"></div>
                     <div id="defi" class="tab-pane fade"></div>
                     <div id="nft" class="tab-pane fade"></div>
                 </div>
             </div>
 
-            <div class="col-6 h-50">
+            <div class="col-6 col-md-12 h-50">
                 <!-- Middle Div  -->
                 <div class="row">
                     <h5 class="hastitle"># Trending</h5>
@@ -472,7 +474,7 @@
                 </div>
             </div>
 
-            <div class="col-2 h-100 p-2" style="background-color: #f4f4f4;">
+            <div class="col-2 col-md-12 h-100 p-2" style="background-color: #f4f4f4;">
                 <div>
                     <img class="img-fluid" src="/static/img/teleads.jpeg" alt="Leads">
                 </div>
@@ -1003,7 +1005,7 @@
 
             <!-- footer logo -->
             <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4 col-md-5 col-6 ps-md-0">
                     <img src="/static/img/logo.png" alt="logo" height="70vh">
                     
                     <div class="ms-5 mt-0">
@@ -1015,30 +1017,23 @@
                     </div>
                 </div>
             </div>
-            <!-- Section: Social media -->
-            <!-- <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"> -->
-
-                <!-- Right -->
-                
-                <!-- Right -->
-            <!-- </section> -->
-            <!-- Section: Social media -->
+            
 
             <!-- Section: Links  -->
             <section class="">
-                <div class="container text-center text-md-start mt-5">
+                <div class="container text-start  mt-5">
                     <!-- Grid row -->
-                    <div class="row mt-3">
+                    <div class="row mt-3 f-items">
  
                         <!-- Grid column -->
-                        <div class="col-md-2 col-lg-2 col-xl-2 mb-4">
+                        <div class="col-12 col-lg-2 col-xl-2 mb-4">
                             <!-- Links -->
                             <h6 class="text-uppercase fw-bold mb-2 fs-13">
                                 CATEGORIES
                                 <span class="text-danger"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
                             </h6>
-                            <ul class="cr-list fw-500 ps-0 gap-1 d-grid">
-                                <li>
+                            <ul class="cr-list fw-500 ps-0 gap-1">
+                                <li class="">
                                     <a href="#!" class="">News</a>
                                 </li>
                                 <li>
@@ -1062,13 +1057,13 @@
                         <!-- Grid column -->
 
                         <!-- Grid column -->
-                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <div class="col-12 col-lg-2 col-xl-2 mx-auto mb-4">
                             <!-- Links -->
                             <h6 class="text-uppercase fw-bold mb-2 fs-13">
                                 Contact
                                 <span class="text-danger"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
                             </h6>
-                            <ul class="cr-list fw-500 ps-0 gap-1 d-grid">
+                            <ul class="cr-list fw-500 ps-0 gap-1">
                                 <li><a href="">Advertise</a></li>
                                 <li><a href="">Submit Press Release</a></li>
                                 <li><a href="">Write for us</a></li>
@@ -1079,13 +1074,13 @@
                         <!-- Grid column -->
 
                         <!-- Grid column -->
-                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <div class="col-12 col-lg-2 col-xl-2 mx-auto mb-4">
                             <!-- Links -->
                             <h6 class="text-uppercase fw-bold mb-2 fs-13">
                                 Company
                                 <span class="text-danger"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
                             </h6>
-                            <ul class="cr-list fw-500 ps-0 gap-1 d-grid">
+                            <ul class="cr-list fw-500 ps-0 gap-1">
                                 <li><a href="">About us</a></li>
                                 <li><a href="">Privacy Policy</a></li>
                                 <li><a href="">Editorial Policy</a></li>
@@ -1096,7 +1091,7 @@
                         <!-- Grid column -->
 
                         <!-- Grid column -->
-                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 d-grid gap-2">
+                        <div class="col-12 col-lg-3 col-xl-3 mx-auto mb-md-0 d-grid gap-2">
                             <div class="row">
 
                                 <h6 class="text-uppercase fw-bold m-0 fs-13">Follow US On</h6>
@@ -1128,20 +1123,18 @@
 
                             <div class="row">
                                 <div class="col-12">
-                                    <h6 class="text-uppercase fw-bold m-0 fs-13">
+                                    <h6 class="text-uppercase fw-bold m-lg-0 fs-13">
                                         Contact us
                                         <span class="text-danger"><i class="fa-solid fa-chevron-right"></i></span>
                                     </h6>
                                 </div>
 
-                                <div>
+                                <div class="d-grid gap-2">
                                     <div class="cr-list border border-danger p-2 w-8em rounded">
                                         <i class="fa-sharp fa-solid fa-bullhorn"></i>
                                         <a href="#">Advertise</a>
                                     </div>
-                                </div>
-
-                                <div>
+                                
                                     <div class="cr-list border border-primary p-2 w-8em rounded">
                                         <i class="fa-regular fa-lightbulb-exclamation"></i>
                                         <a href="#">Contribute</a>
@@ -1156,15 +1149,17 @@
                 </div>
             </section>
             <!-- Section: Links  -->
+            
             <hr class="hr" />
+
             <!-- Copyright -->
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-6 col-md-6 col-12">
                     <p class="fs-12">
                         © 2022 SquadX Innovations Pvt. Ltd.
                     </p>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-md-6 col-12">
                     <ul class="d-flex gap-3 cr-list fs-12">
                         <li><a href="#">About</a></li>
                         <li><a href="#">Privacy Policy</a></li>
