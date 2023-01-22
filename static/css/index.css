@@ -289,13 +289,11 @@ footer a {
     background-color: #dbf4ff;
 }
 
-.more-news-section .row:nth-child(2) .col-12 {
-    display: grid !important;
-    grid-template-columns: 33.33% 33.33% 33.33%;
-}
-
-.project-review-right {
-    /* justify-content: space-between; */
+@media screen and (min-width: 992px) {
+    .more-news-section .row:nth-child(2) .col-12 {
+        display: grid !important;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+    }
 }
 
 /* END  */
