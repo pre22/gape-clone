@@ -350,6 +350,10 @@ footer a {
         width: auto;
     }
 
+    .tab-section-right {
+        height: auto;
+    }
+
     .tab-section-right h5 {
         font-size: 13px;
     }
@@ -380,12 +384,21 @@ footer a {
         display: grid !important;
         grid-template-columns: 50% 50%;
     }
+
+    .news {
+        gap: 1.5rem ;
+    }
+
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
     .container {
         max-width: 95%;
     }
+}
+
+@media screen and (max-width: 700px) {
+
 }
 
 /* Style controlling the div with .col-r class  */
@@ -475,6 +488,9 @@ footer a {
 }
 
 /* Home Page Project-Overview Media Query */
-@media screen and (min-width: ) and (max-width: 599px) {
-    
+@media only screen and (max-width: 436px) {
+    .carousel-cell-1 {
+        width: 100%;
+        height: fit-content;
+      }
 }
